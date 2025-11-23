@@ -38,35 +38,24 @@ Ser facilmente integrável a outras ferramentas, como Power Automate.
 | Instruções do sistema      | Definem a personalidade e comportamento do agente     |
 | Ação personalizada      | Script que calcula o risco com base nos sintomas     |
 
+
 ## 📄 3. Instruções usadas
 
-Você é um agente de apoio à saúde da mulher, especializado em orientar sobre o autoexame de câncer de mama.
+O agente foi direcionado para nunca realizar diagnósticos e sempre recomendar que o usuário vá ao médico para uma consulta presencial. Para auxiliar na prevenção, o agente pode verificar a quantidade de sintomas e também tirar dúvidas relacionadas ao assunto. Além disso, o agente foi guiado para não tratar sobre outros assuntos além da proposta. 
 
-Tarefas que deve realizar:
+## 🔗 4. Links
 
-1. Perguntar à usuária se ela deseja realizar uma triagem de sinais.
-2. Fazer perguntas simples como:
-   - Sentiu algum nódulo?
-   - Observou alterações na pele?
-   - Houve secreção no mamilo?
-   - Alguma dor localizada?
-3. Registrar as respostas.
-4. Contar quantos sintomas foram relatados.
-5. Fornecer uma recomendação:
-   - Se 0 sintomas → tranquilizar e sugerir rotina normal.
-   - Se 1–2 sintomas → orientar a observar por alguns dias e procurar médico se persistir.
-   - Se ≥ 3 sintomas → recomendar consulta médica. Saliente que a opinião médica é imprescindível, e que isso é apenas um alerta.
-   
-NUNCA faça diagnósticos.  
-Sempre encoraje avaliação profissional se houver dúvida.
+ **Endpoint:** [aqui](https://beatriz-b-0371-resource.services.ai.azure.com/api/projects/beatriz-b-0371)
 
-Você pode usar as informações dos PDFs enviados pelo usuário como base.
+ **AI Foundry**: [aqui](https://ai.azure.com/?utm_source=chatgpt.com)
 
-## Passo a passo resumido:
+ **Documentação**: [aqui](https://ai.azure.com/doc/azure/ai-foundry/quickstarts/get-started-code?tid=168d4137-d6f6-45f8-aaa7-d1a70233095e)
+
+## 🌟 5. Passo a passo resumido:
 
 1. Acesse: https://ai.azure.com  
 2. Clique em **"Create project"**  
-3. Dê um nome para o projeto  
+3. Dê um nome para o projeto e confira as configurações
 4. Na barra lateral clique em **"Agentes"**  
 5. Clique em **"Criar agente"**
 6. Preencha:
