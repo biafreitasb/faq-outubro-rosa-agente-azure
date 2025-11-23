@@ -1,0 +1,15 @@
+{
+  "name": "teste_sintomas",
+  "description": "Avalia sintomas relatados pela usuária e recomenda orientação",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "sintomas": {
+        "type": "array",
+        "description": "Lista de sintomas relatados",
+        "items": { "type": "string" }
+      }
+    },
+    "required": [ "sintomas" ]
+  }
+}
