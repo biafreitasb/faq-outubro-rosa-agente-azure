@@ -1,0 +1,1 @@
+# faq-outubro-rosa-agente-azure
